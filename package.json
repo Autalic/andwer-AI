@@ -1,0 +1,13 @@
+{
+  "name": "rauch-voicemail-emailer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.3",
+    "googleapis": "^118.0.0"
+  }
+}
